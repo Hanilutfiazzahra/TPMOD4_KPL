@@ -18,6 +18,15 @@ namespace TP_MODUL4_103022400095
             Console.WriteLine("Sekejati: " + kp.getKodePos("Sekejati"));
             Console.WriteLine("Kebonwaru: " + kp.getKodePos("Kebonwaru"));
             Console.WriteLine("Maleer: " + kp.getKodePos("Maleer"));
+
+            Console.WriteLine("\n=== SOAL E DOOR MACHINE ===");
+
+            DoorMachine door = new DoorMachine();
+
+            door.BukaPintu();
+            door.KunciPintu();
+            door.KunciPintu();
+            door.BukaPintu();
         }
     }
 }
